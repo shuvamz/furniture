@@ -25,16 +25,13 @@
 
 <body>
 	<script language=javascript>
-<!--
-if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i) || (navigator.userAgent.match(/iPad/i))) {
+
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
    location.replace("mobile.html");
-}
--->
-<!--
-if (screen.width <= 699) {
+} else if (screen.width <= 699) {
 document.location = "mobile.html";
 }
-//-->
+
 
 </script>
 	<div class = "grid-container homeContainer">
