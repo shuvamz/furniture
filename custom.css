@@ -426,11 +426,11 @@ body {
 .mobBody {
 	margin: auto;
 	background-color: #ebebeb;
-	
+	height: 1920px;
 }
 
 .mobFB {
-	margin-left: 235px;
+	margin-left: 40%;
 }
 
 .mobFB a {
@@ -439,8 +439,8 @@ body {
 	font-family: 'futura';
 	color: white;
 	padding: 4px;
-	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 1.3em;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 1.7em;
 	font-weight: bold;
 }
