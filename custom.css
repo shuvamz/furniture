@@ -423,3 +423,25 @@ body {
 	transition: linear 0.2s;
 }
 
+.mobBody {
+	margin: auto;
+	background-color: #ebebeb;
+	width: 700px;
+	height: 1000px;
+}
+
+.mobFB {
+	margin-left: 235px;
+}
+
+.mobFB a {
+	text-align: center;
+	background-color: #009541;
+	font-family: 'futura';
+	color: white;
+	padding: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 1.3em;
+	font-weight: bold;
+}
