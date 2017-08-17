@@ -13,8 +13,8 @@ html {
 
 body {
     overflow-x:hidden;
-	-webkit-text-size-adjust: none;
 }
+
 
 .navigation {
 	height: 50px;
@@ -26,7 +26,6 @@ body {
 	padding-top: 2px;
 	position:fixed;
 	top:0;
-	width:100%;
 	z-index:100;
 }
 
@@ -36,26 +35,24 @@ body {
 	padding-top: 2px;
 	position:fixed;
 	top:0;
-	width:100%;
 	z-index:100;
 	background-color: #ebebeb;
 }
 
 .top1 {
-	margin-left: 8px;
+	margin-left: 10px;
 
 }
 
 .top1 h4 {
+	padding-right: 89px;
 	margin-top: 10px;
 	display: inline;
-	float: right;
-	margin-left: 730px;
+	margin-left: 710px;
 	font-family: 'futura';
 	color: #009541;
 	font-weight: bold;
 	font-size: 1.2em;
-	position: absolute;
 }
 
 .top1 .scrollImg {
@@ -256,7 +253,7 @@ body {
 }
 
 .page2 {
-	background: url("ceill.jpg") no-repeat center center fixed; 
+	background: url("ceiling.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -349,6 +346,10 @@ body {
 	opacity: 0.80
 }
 
+.abtFooter {
+	margin-top: 700px;
+}
+
 .footer p {
 	padding-top: 25px;
 	text-align: center;
@@ -360,7 +361,7 @@ body {
 /* ABOUT PAGE */
 
 .aboutContainer {
-	height: 900px;
+	height: 1562px;
 	background: url("abtBackground3.jpg") no-repeat center center fixed; 
 	background-size: 100% 100%;
 	-webkit-background-size: cover;
@@ -377,9 +378,27 @@ body {
 
 .aboutArea2 {
 	background-color: #ebebeb;
-	height: 600px;
 	margin-right: 40px;
-	opacity: 0.8;
+	opacity: 0.95;
+}
+
+.aboutPage {
+	height: 1345px;
+}
+
+.aboutPage h6 {
+	margin-left: 20px;
+	font-family: 'futura';
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #009541;
+}
+
+.aboutPage p {
+	margin-left: 20px;
+	font-family: 'futura';
+	text-align: justify;
+	margin-right: 20px;
 }
 
 .defNavBar {
@@ -425,11 +444,13 @@ body {
 
 .mobBody {
 	margin: auto;
-	height: 1600px;
+	background-color: #ebebeb;
+
+	height: 1000px;
 }
 
 .mobFB {
-	margin-left: 31%;
+	margin-left: 45%;
 }
 
 .mobFB a {
@@ -438,8 +459,9 @@ body {
 	font-family: 'futura';
 	color: white;
 	padding: 4px;
-	padding-left: 10px;
-	padding-right: 10px;
-	font-size: 1.7em;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 1.3em;
 	font-weight: bold;
 }
+
